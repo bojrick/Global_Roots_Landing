@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 61 143 205;
+  --secondary: 23 73 150;
+  --accent: 135 196 64;
+}
+
+body {
+  color: rgb(var(--secondary));
+}
+
+.bg-primary {
+  background-color: rgb(var(--primary));
+}
+
+.bg-secondary {
+  background-color: rgb(var(--secondary));
+}
+
+.bg-accent {
+  background-color: rgb(var(--accent));
+}
+
+.text-primary {
+  color: rgb(var(--primary));
+}
+
+.text-secondary {
+  color: rgb(var(--secondary));
+}
+
+.text-accent {
+  color: rgb(var(--accent));
+}
